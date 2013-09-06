@@ -1,7 +1,7 @@
 mac-arabic-fix
 ==============
 
-WordPress plugin that filters POST input for a sequence of arabic characters that crash Mac applications.
+WordPress plugin that filters input for a sequence of arabic characters that crash Mac applications.
 
 See here for more information:
 
