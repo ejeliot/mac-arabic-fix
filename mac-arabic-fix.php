@@ -6,7 +6,9 @@ Version: 0.1
 Author: Ed Eliot
 */
 add_action('init', function() {
-    foreach ($_POST as &$value) {
-        $value = str_replace('ﺲﻤَـَّﻭُﻮُﺤﺧ ̷̴ﺥ ̷̴ﺥ ̷̴ﺥ ﺎﻣﺍﺮﺘﻴﺧ ̷̴ﺥ', '', $value);    
+    foreach (array($_GET, $_POST, $_REQUEST) as &$array) {
+        foreach ($_POST as &$value) {
+            $value = str_replace('ﺲﻤَـَّﻭُﻮُﺤﺧ ̷̴ﺥ ̷̴ﺥ ̷̴ﺥ ﺎﻣﺍﺮﺘﻴﺧ ̷̴ﺥ', '', $value);    
+        }
     }
 });
