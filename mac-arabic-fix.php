@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: MacArabicFix
-Description: Filters POST input for a sequence of arabic characters that crash Mac applications
+Description: Filters input for a sequence of arabic characters that crash Mac applications
 Version: 0.1
 Author: Ed Eliot
 */
