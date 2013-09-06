@@ -7,7 +7,7 @@ Author: Ed Eliot
 */
 add_action('init', function() {
     foreach (array($_GET, $_POST, $_REQUEST) as &$array) {
-        foreach ($_POST as &$value) {
+        foreach ($array as &$value) {
             $value = str_replace('ﺲﻤَـَّﻭُﻮُﺤﺧ ̷̴ﺥ ̷̴ﺥ ̷̴ﺥ ﺎﻣﺍﺮﺘﻴﺧ ̷̴ﺥ', '', $value);    
         }
     }
