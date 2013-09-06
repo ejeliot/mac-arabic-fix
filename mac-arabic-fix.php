@@ -1,8 +1,7 @@
 <?php
 /*
 Plugin Name: MacArabicFix
-Description: A simple plugin that strips a sequence of arabic characters from any post input
-             that cause mac and iOS apps to crash then viewed
+Description: Filters POST input for a sequence of arabic characters that crash Mac applications
 Version: 0.1
 Author: Ed Eliot
 */
